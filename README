@@ -5,7 +5,7 @@ dmenu is an efficient dynamic menu for X.
 
 Requirements
 ------------
-In order to build dmenu you need the Xlib header files.
+In order to build dmenu you need the Xlib header files and fribidi.
 
 
 Installation
@@ -22,3 +22,11 @@ Afterwards enter the following command to build and install dmenu
 Running dmenu
 -------------
 See the man page for details.
+
+Patches applied
+---------------
+- bidi
+- fuzzymatch
+- highlight
+- case insensitive
+
